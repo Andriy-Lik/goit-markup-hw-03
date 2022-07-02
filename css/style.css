@@ -33,11 +33,16 @@
 
 /*body styles*/
 .body {
-    width: 1600px;    
-
     background-color: var(--main-background-color);
     color: var(--primery-text-color);
     font-family: roboto, sans-serif;
+}
+
+.conteiner {   
+    width: 1200px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .list {
@@ -46,15 +51,14 @@
     list-style: none;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;    
+}
+
 /*header styles*/
 .header {
     border-bottom: 1px solid #ECECEC;
-}
-.conteiner {   
-    width: 1200px; 
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
 }
 
 .page-header {
@@ -96,9 +100,7 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
-
-    
+    text-decoration: none;    
 }
 
 .site-nav .link:hover,
@@ -139,7 +141,6 @@
 /*main styles*/
 /*hat styles*/
 .hat {
-    width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -151,8 +152,7 @@
 
 .hat-title { 
     margin-top: 0;
-    margin-bottom: 0;    
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 
     font-weight: 900;
     font-size: 44px;
@@ -188,11 +188,6 @@
 }
 
 /*features styles*/
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;    
-}
-
 .features {
     display: flex;
 }
@@ -231,7 +226,7 @@
 .work-title,
 .team-title {
     margin-top: 0;
-    margin-bottom: 50;
+    margin-bottom: 50px;
 
     font-weight: 700;
     font-size: 36px;
@@ -258,8 +253,14 @@
 }
 
 .team-pic {
-    margin-bottom: 30px;
+    display: block;
 }
+
+.team-blok {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
 .team-name {
     margin-top: 0;
@@ -352,7 +353,7 @@
 
 .projects-title {
     margin-top: 0;
-    margin-bottom: 4;
+    margin-bottom: 4px;
 
     font-weight: 700;
     font-size: 18px;
@@ -372,8 +373,7 @@
 
 
 /*footer-styles*/
-.footer {       
-    width: 1600px;
+.footer { 
     padding-top: 60px;
     padding-bottom: 60px;
 
