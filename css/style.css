@@ -223,6 +223,10 @@
 }
 
 /*work styles*/
+.work {
+    padding-top: 0;
+}
+
 .work-title,
 .team-title {
     margin-top: 0;
